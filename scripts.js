@@ -8,8 +8,8 @@ span.each(function(index, element) {
 $("span:odd").css('color', 'green');
 var allParagraphes = $('p');
 allParagraphes.each(function(index, element) {
-	var button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
-    	$(element).append(button)
+	var button = '<button class="btn" data-tmp="' + index + '">Click me</button>';
+    	$(element).append(button);
 });
 
 $("button").click(function(){
